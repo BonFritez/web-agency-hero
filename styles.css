@@ -1,0 +1,38 @@
+@font-face {
+    src: url("fonts/open-sans.ttf");
+    font-family: open-sans;
+}
+
+body {
+    font-family: open-sansa;
+    margin: 0;
+    background-image: url("img/faded-office.png");
+    background-size: cover;
+}
+
+.hero {
+    text-align: left;
+    width: 300px;
+    margin: 50px 0 0 40px; 
+    font-size: 20px;
+    color: #020202;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 0 0 1px black;
+}
+
+.underline {
+    border-bottom: solid 4px #0ea5e9;
+}
+
+.btn {
+    font-family: inherit;
+    background-color: #0ea5e9;
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+}
